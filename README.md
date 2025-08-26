@@ -1,5 +1,6 @@
 # Create venv + install deps
-python -m venv .venv && source .venv/bin/activate
+# Use Python 3.12
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 # Start the API (for development)
